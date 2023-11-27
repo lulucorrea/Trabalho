@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600&display=swap');
+
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    display: flex;
+}
+
+.navbar{
+    background: rgb(224, 220, 220);
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    padding: 1rem;
+    border-right: .1rem solid rgb(124, 124, 124);
+}
+
+.navbar ul .home{
+    border-top: .1rem solid rgb(72, 69, 69);
+    margin-top: 4rem;
+    padding: .8rem;
+}
+
+.navbar ul li{
+    border-bottom: .1rem solid rgb(72, 69, 69);
+    padding: .8rem;
+}
+
+.navbar ul li a{
+    font-size: 1.6rem;
+    color: rgb(69, 65, 65);
+}
+
+header{
+    background: rgb(198, 191, 191);
+    display: flex;
+    padding: .8rem 3rem;
+    width: 100%;
+    justify-content: space-between;
+}
+
+header .logo{
+    font-size: 1.4rem;
+}
+
+header a{
+    color: rgb(234, 234, 26);   
+}
+
+header .links{
+    display: flex;
+    font-size: 1.3rem;
+    gap: 1rem;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+.center .imgs{
+    display: flex;
+    gap: 2rem;
+}
+
+.center .imgs img{
+    height: 20rem;
+    border-radius: 1rem;
+}
+
+.texto{
+    background: rgb(255, 255, 106);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: .8rem;
+}
+
+.texto h1{
+    font-size: 2.5rem;
+}
+
+.texto p{
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
